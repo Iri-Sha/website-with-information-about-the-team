@@ -14,10 +14,10 @@
 
 Сервис https://reqres.in/ имеет ограничения на запросы, поэтому ниже отображены данные для корректного тестирования регистрации и авторизации.
 
-#Данные для теста регистрации:
-    "email": "eve.holt@reqres.in",
-    "password": "pistol"
+# Данные для теста регистрации:
+-    "email": "eve.holt@reqres.in",
+-    "password": "pistol"
 
-#Данные для теста авторизации:
-    "email": "eve.holt@reqres.in",
-    "password": "cityslicka"
+# Данные для теста авторизации:
+-    "email": "eve.holt@reqres.in",
+-    "password": "cityslicka"
