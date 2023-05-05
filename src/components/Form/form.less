@@ -1,0 +1,99 @@
+.form {
+  &-container{
+    margin: 70px auto 0;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 830px){
+      margin: 60px auto 0;
+    }
+    @media screen and (max-width: 520px){
+      width: 260px;
+      margin-top: 56px;
+    }
+  }
+
+  &-title{
+    margin: 40px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+  }
+
+  &-form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-error-message {
+    max-width: 100%;
+    min-height: 40px;
+    text-align: center;
+    color: #EE3465;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  &-button{
+    width: 100%;
+    height: 45px;
+    background-color: #512689;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 16px;
+    &_disabled{
+      opacity: 0.7;
+      pointer-events: none;
+    }
+    &:hover{
+      opacity: 0.6;
+      cursor: pointer;
+    }
+    @media screen and (max-width: 520px){
+      font-size: 12px;
+      line-height: 15px;
+      margin: 0 0 14px;
+    }
+  }
+
+  &-span{
+    margin: 0 auto;
+    color: #A0A0A0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    @media screen and (max-width: 520px){
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+
+  &-link{
+    margin-left: 6px;
+    color: #3456F3;
+    text-decoration: none;
+    border: none;
+    background: none;
+    &:hover{
+      opacity: 0.6;
+      cursor: pointer;
+    }
+    @media screen and (max-width: 520px){
+      font-size: 12px;
+      line-height: 15px;
+      margin-left: 7px;
+    }
+  }
+}

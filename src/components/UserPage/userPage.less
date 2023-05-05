@@ -1,0 +1,97 @@
+.infouser{
+
+
+  &-profile{
+    background: linear-gradient(180deg, rgb(81, 38, 137), #a275e1);
+    box-shadow: 0px 0.996045px 3.98418px rgba(51, 51, 51, 0.15);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 13%;
+    @media screen and (max-width: 900px){
+      padding: 0;
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+  }
+
+  &-avatar{
+    width: 187px;
+    height: 187px;
+    border-radius: 50%;
+    margin-right: 32px;
+    @media screen and (max-width: 900px){
+      margin: 16px auto 64px;
+    }
+  }
+
+  &-block{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &-name{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    margin: 0 0 16px;
+    @media screen and (max-width: 500px){
+      font-size: 36px;
+      line-height: 42px;
+    }
+  }
+
+  &-text{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0;
+    @media screen and (max-width: 500px){
+      font-size: 20px;
+      line-height: 23px;
+    }
+  }
+
+  &-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 49px;
+    @media screen and (max-width: 900px){
+      flex-direction: column-reverse;
+      margin: 33px 16px;
+    }
+  }
+
+  &-description{
+    max-width: 630px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 136.19%;
+    color: #151317;
+    margin: 0;
+  }
+
+  &-img{
+    margin-right: 10px;
+  }
+
+  &-email{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 136.19%;
+    color: #151317;
+    margin: 0;
+    @media screen and (max-width: 900px){
+      margin: 0 0 34px;
+    }
+  }
+}
