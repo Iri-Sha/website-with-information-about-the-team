@@ -21,7 +21,7 @@ module.exports = {
         extensions: ['.js', '.jsx']
     },
     plugins: [
-        new HTMLWebpackPlugin({template: "./src/index.html"}),
+        new HTMLWebpackPlugin({template: "./public/index.html"}),
         new CleanWebpackPlugin()
     ],
     module: {
