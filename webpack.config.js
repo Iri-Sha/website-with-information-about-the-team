@@ -11,6 +11,9 @@ module.exports = {
         publicPath: "/"
     },
     devServer: {
+        static: path.resolve(__dirname, './dist'),
+        open: true,
+        compress: true,
         port: 3000,
         historyApiFallback: true
     },
