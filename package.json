@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Iri-Sha/website-with-information-about-the-team/issues"
   },
-  "homepage": "https://github.com/Iri-Sha/website-with-information-about-the-team#readme",
+  "homepage": "https://github.com/Iri-Sha/website-with-information-about-the-team",
   "devDependencies": {
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
